@@ -52,5 +52,5 @@ if __name__=='__main__':
     if len(sys.argv)>1:
         image_address = sys.argv[1]  # get the image file name from the command line first argument
     else:
-        image_address = "tes.png"
+        image_address = "tes.jpg"
     test_image(image_address)  # Test the image to see which kind of expression do it contain
