@@ -49,5 +49,8 @@ def test_image(addr):
 
 
 if __name__=='__main__':
-    image_addres = sys.argv[1]  # get the image file name from the command line first argument
-    test_image(image_addres)  # Test the image to see which kind of expression do it contain
+    if len(sys.argv)>1:
+        image_address = sys.argv[1]  # get the image file name from the command line first argument
+    else:
+        image_address = "tes.png"
+    test_image(image_address)  # Test the image to see which kind of expression do it contain
