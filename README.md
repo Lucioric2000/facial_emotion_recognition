@@ -1,28 +1,35 @@
 # facial_emotion_recognition
-
-About 
+ 
 This repository contain facial expression using cnn, you can also use webcam as realtime facial expression detection. 
 
-Dataset 
+## Dataset 
 for dataset I use FER 2013 from kaggle, you can download here
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge 
 
-Dependency 
+## Dependency 
 - Keras
 - Tensorflow
 - Opencv
 
-for keras model you can download here
+## Pretrained model
+For keras model you can download here
 https://drive.google.com/file/d/0B6yZu81NrMhSV2ozYWZrenJXd1E/view?usp=sharing 
 and put in keras_model file
 
-How to use
-- realtime facial emotion recognition 
-python realtime_facial_expression.py 
-- image test 
-python image_test.py tes.jpg
+##How to use
 
-image testing example 
-<img src="https://github.com/adamaulia/facial_emotion_recognition/blob/master/result.jpg" alt="alt text" align="middle"/>
+1. For real time facial emotion recognition you can execute command: ```python realtime_facial_expression.py``` 
 
-np : best accuracy so far is 62%
+2. For detecting the facial expression in image you can execute the command ```
+python image_test.py tes.jpg```
+
+#### Image testing example 
+![result_emotion_detection_app](https://user-images.githubusercontent.com/12840374/36295924-8380b372-1310-11e8-8646-2157f6ea98f5.jpg)
+
+#### Demo Image example
+
+![b08394_11_42](https://user-images.githubusercontent.com/12840374/36353364-bfe558a4-14eb-11e8-9649-7a421bea7772.png)
+
+
+## Credit
+This code credit goes to [adamaulia](https://github.com/adamaulia). I've merely created a wrapper to get people started.
